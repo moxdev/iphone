@@ -12,6 +12,10 @@
 		9139250E1CEE775200C5E371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9139250C1CEE775200C5E371 /* Main.storyboard */; };
 		913925101CEE775200C5E371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9139250F1CEE775200C5E371 /* Assets.xcassets */; };
 		913925131CEE775200C5E371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913925111CEE775200C5E371 /* LaunchScreen.storyboard */; };
+		9139251B1CEE864100C5E371 /* music-example-asset.png in Resources */ = {isa = PBXBuildFile; fileRef = 9139251A1CEE864100C5E371 /* music-example-asset.png */; };
+		9139251F1CEE866900C5E371 /* Battle at the misty valley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9139251C1CEE866900C5E371 /* Battle at the misty valley.mp3 */; };
+		913925201CEE866900C5E371 /* Breath of Freedom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9139251D1CEE866900C5E371 /* Breath of Freedom.mp3 */; };
+		913925211CEE866900C5E371 /* Classical-bwv-bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9139251E1CEE866900C5E371 /* Classical-bwv-bach.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9139250F1CEE775200C5E371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		913925121CEE775200C5E371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		913925141CEE775200C5E371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9139251A1CEE864100C5E371 /* music-example-asset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music-example-asset.png"; sourceTree = "<group>"; };
+		9139251C1CEE866900C5E371 /* Battle at the misty valley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Battle at the misty valley.mp3"; sourceTree = "<group>"; };
+		9139251D1CEE866900C5E371 /* Breath of Freedom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Breath of Freedom.mp3"; sourceTree = "<group>"; };
+		9139251E1CEE866900C5E371 /* Classical-bwv-bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Classical-bwv-bach.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		913925071CEE775200C5E371 /* My First App */ = {
 			isa = PBXGroup;
 			children = (
+				9139251C1CEE866900C5E371 /* Battle at the misty valley.mp3 */,
+				9139251D1CEE866900C5E371 /* Breath of Freedom.mp3 */,
+				9139251E1CEE866900C5E371 /* Classical-bwv-bach.mp3 */,
+				9139251A1CEE864100C5E371 /* music-example-asset.png */,
 				913925081CEE775200C5E371 /* AppDelegate.swift */,
 				9139250A1CEE775200C5E371 /* MusicPlayerController.swift */,
 				9139250C1CEE775200C5E371 /* Main.storyboard */,
@@ -122,7 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9139251F1CEE866900C5E371 /* Battle at the misty valley.mp3 in Resources */,
 				913925131CEE775200C5E371 /* LaunchScreen.storyboard in Resources */,
+				913925211CEE866900C5E371 /* Classical-bwv-bach.mp3 in Resources */,
+				913925201CEE866900C5E371 /* Breath of Freedom.mp3 in Resources */,
+				9139251B1CEE864100C5E371 /* music-example-asset.png in Resources */,
 				913925101CEE775200C5E371 /* Assets.xcassets in Resources */,
 				9139250E1CEE775200C5E371 /* Main.storyboard in Resources */,
 			);

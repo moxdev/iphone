@@ -18,20 +18,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUP-Kn-Ghr">
-                                <rect key="frame" x="186" y="62" width="42" height="21"/>
+                                <rect key="frame" x="186" y="13" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENq-nS-SNl">
-                                <rect key="frame" x="192" y="311" width="30" height="30"/>
+                                <rect key="frame" x="192" y="488" width="30" height="30"/>
                                 <state key="normal" title="Play"/>
                                 <connections>
                                     <action selector="playButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BF5-EH-aO1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4J-ii-YCk">
-                                <rect key="frame" x="73" y="311" width="37" height="30"/>
+                                <rect key="frame" x="101" y="488" width="37" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <action selector="backButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3k4-Ij-57q"/>
@@ -39,20 +39,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfs-V9-dFH">
-                                <rect key="frame" x="300" y="311" width="32" height="30"/>
+                                <rect key="frame" x="286" y="488" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="nextButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vpf-dh-Zsp"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KBn-Dg-gfv">
-                                <rect key="frame" x="148" y="379" width="118" height="31"/>
+                                <rect key="frame" x="148" y="551" width="118" height="31"/>
                                 <connections>
                                     <action selector="volumeSliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="Kht-Ou-mud"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="kD7-UA-ING">
-                                <rect key="frame" x="79" y="223" width="256" height="31"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="music-example-asset.png" translatesAutoresizingMaskIntoConstraints="NO" id="7FZ-jl-vAl">
+                                <rect key="frame" x="55" y="60" width="347" height="364"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-0.5" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="kD7-UA-ING">
+                                <rect key="frame" x="58" y="432" width="256" height="31"/>
                                 <connections>
                                     <action selector="scrubberSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="oUA-q1-2qb"/>
                                 </connections>
@@ -75,7 +78,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="540" y="145"/>
+            <point key="canvasLocation" x="607" y="132"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="music-example-asset.png" width="500" height="500"/>
+    </resources>
 </document>
